@@ -36,7 +36,7 @@ This project demonstrates how **LLMs can use the Model Context Protocol (MCP)** 
 - `Compare Amazon and Tesla.`
 - `What's the price of Meta?`
 <p align="center">
-  <img src="imgg/ss.png" alt="" width="300" height ="500" />
+  <img src="imgg/ss.png" alt="" width="800" height ="1000" />
  </p>
 ## Learnings
 - Built a complete **LLM toolchain using MCP**
