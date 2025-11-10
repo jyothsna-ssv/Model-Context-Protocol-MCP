@@ -35,9 +35,11 @@ This project demonstrates how **LLMs can use the Model Context Protocol (MCP)** 
 - `What's the stock price of Walmart?`
 - `Compare Amazon and Tesla.`
 - `What's the price of Meta?`
+  
 <p align="center">
   <img src="imgg/ss.png" alt="" width="800" height ="1000" />
  </p>
+ 
 ## Learnings
 - Built a complete **LLM toolchain using MCP**
 - Implemented **real-time API integrations**
