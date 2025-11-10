@@ -1,19 +1,19 @@
-# 🧠 Model Context Protocol (MCP) – Client–Server Demo
+# Model Context Protocol (MCP) – Client–Server Demo
 
 This project demonstrates how **LLMs can use the Model Context Protocol (MCP)** to securely connect with external tools and data sources.
 
-## 🚀 Features
+## Features
 - **FastAPI MCP Server** exposing stock data tools (`get_stock_price`, `compare_stocks`)
 - **Async Python MCP Client** using **Gemini 2.5 Flash**
 - **Real-time finance data** via `yfinance`
 - **Secure .env configuration** for API keys
 
-## 🧩 Architecture
+## Architecture
 ```
 [ Gemini 2.5 Flash ] ⇄ [ MCP Client ] ⇄ [ MCP Server (FastAPI) ] ⇄ [ Yahoo Finance API ]
 ```
 
-## ⚙️ Setup
+## Setup
 1. Create a `.env` file:
    ```bash
    GEMINI_API_KEY=your_api_key_here
@@ -31,19 +31,21 @@ This project demonstrates how **LLMs can use the Model Context Protocol (MCP)** 
    python mcp_client.py
    ```
 
-## 💬 Example Queries
+## Example Queries
 - `What's the stock price of Walmart?`
 - `Compare Amazon and Tesla.`
 - `What's the price of Meta?`
-
-## 📚 Learnings
+<p align="center">
+  <img src="imgg/ss.png" alt="" width="300" height ="500" />
+ </p>
+## Learnings
 - Built a complete **LLM toolchain using MCP**
 - Implemented **real-time API integrations**
 - Understood **client-server orchestration** and **security principles**
 
 ---
 
-### 🧠 Author
+### Author
 **Jyothsna Karuparthi**  
 *Exploring Agentic AI & Secure System Architecture*  
 📍 [linkedin.com/in/karuparthi-jyothsna](https://linkedin.com/in/karuparthi-jyothsna)
